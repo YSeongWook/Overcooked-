@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d7300932f1db926469ec9d06e8cbcd91, type: 3}
+  m_Name: CucumberSushi
+  m_EditorClassIdentifier: 
+  Level: 3
+  MenuName: CucumberSushi
+  Ingredient: 0b0000000c00000005000000
+  LimitTime: 220
+  MenuIcon: {fileID: 21300000, guid: 3a2a887626b18ff45a4da9b3050375cc, type: 3}
+  IngredientIcon:
+  - {fileID: 21300000, guid: 75fcc262802227e469e54dd6b394d09a, type: 3}
+  - {fileID: 21300000, guid: 1f4097d99759e534cb060081d93ac2a1, type: 3}
+  - {fileID: 21300000, guid: 76d14744947c6c5409f533990372ab43, type: 3}
+  Price: 70

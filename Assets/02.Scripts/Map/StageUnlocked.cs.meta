@@ -1,0 +1,12 @@
+fileFormatVersion: 2
+guid: 8272c9fdabb389f4d843e978d7f89faf
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - YellowStar: {fileID: 21300000, guid: d92a11944c14e004bbb2d4435943e2be, type: 3}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

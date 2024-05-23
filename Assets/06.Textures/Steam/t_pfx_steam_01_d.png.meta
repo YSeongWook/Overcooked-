@@ -1,0 +1,905 @@
+fileFormatVersion: 2
+guid: af5291925dbe4da4687eeb45673d952a
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 0
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 1
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: t_pfx_steam_01_d_0
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 220
+        width: 32
+        height: 28
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 00ffefb8b98d2e747b57f056a48e42c0
+      internalID: -645979774
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: t_pfx_steam_01_d_1
+      rect:
+        serializedVersion: 2
+        x: 42
+        y: 220
+        width: 32
+        height: 28
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ce8343a54b8c8e44b9883f26611bab8f
+      internalID: 278998529
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: t_pfx_steam_01_d_2
+      rect:
+        serializedVersion: 2
+        x: 78
+        y: 220
+        width: 32
+        height: 28
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8f95bbaeb54d1b54aa506d3e823509f5
+      internalID: 1300226241
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: t_pfx_steam_01_d_3
+      rect:
+        serializedVersion: 2
+        x: 114
+        y: 220
+        width: 32
+        height: 28
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8e240ec34234df64a8790c585c086859
+      internalID: 1228899899
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: t_pfx_steam_01_d_4
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 220
+        width: 32
+        height: 28
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c8413b1c2112929459cefe89093b7437
+      internalID: 1138093271
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: t_pfx_steam_01_d_5
+      rect:
+        serializedVersion: 2
+        x: 187
+        y: 220
+        width: 32
+        height: 28
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 80171403007109241af1b866a6d33985
+      internalID: 602913855
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: t_pfx_steam_01_d_6
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 220
+        width: 32
+        height: 28
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5370bcc7623ebf44f8a689189ebf747d
+      internalID: -375720643
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: t_pfx_steam_01_d_7
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 187
+        width: 32
+        height: 28
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 62b7bcdfef8272847913db1843d33227
+      internalID: 1275502383
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: t_pfx_steam_01_d_8
+      rect:
+        serializedVersion: 2
+        x: 42
+        y: 187
+        width: 32
+        height: 28
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c1e7350135c32504d8dddac8a3a8b2e7
+      internalID: -1850318564
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: t_pfx_steam_01_d_9
+      rect:
+        serializedVersion: 2
+        x: 78
+        y: 187
+        width: 32
+        height: 28
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 395e9a787ef26e34eb3aeb99693ec766
+      internalID: 2130074880
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: t_pfx_steam_01_d_10
+      rect:
+        serializedVersion: 2
+        x: 114
+        y: 187
+        width: 32
+        height: 28
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: efe926566c417f541a59fe04c7c2c0e2
+      internalID: -858263823
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: t_pfx_steam_01_d_11
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 187
+        width: 32
+        height: 28
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 054246b28d8b02a4c9b3e292c0e340b3
+      internalID: 2087757352
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: t_pfx_steam_01_d_12
+      rect:
+        serializedVersion: 2
+        x: 187
+        y: 187
+        width: 32
+        height: 28
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f749ff3da8cbc8d46beb0272b4e7dd37
+      internalID: -1356286916
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: t_pfx_steam_01_d_13
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 187
+        width: 32
+        height: 28
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 840770e228dbe72468c9995cec735dd1
+      internalID: 204410522
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: t_pfx_steam_01_d_14
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 152
+        width: 32
+        height: 28
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 06e5658db4e31f745adfb1fdd84cae4f
+      internalID: 151843471
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: t_pfx_steam_01_d_15
+      rect:
+        serializedVersion: 2
+        x: 42
+        y: 152
+        width: 32
+        height: 28
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 40e6478b85b601a40bff22c4d5e4ee10
+      internalID: 714992385
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: t_pfx_steam_01_d_16
+      rect:
+        serializedVersion: 2
+        x: 78
+        y: 152
+        width: 32
+        height: 28
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 467b83b12411fa148bba9b1a7f734674
+      internalID: 1005868121
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: t_pfx_steam_01_d_17
+      rect:
+        serializedVersion: 2
+        x: 114
+        y: 152
+        width: 32
+        height: 28
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4a123f219f9cae04d987ebe70bf7bc00
+      internalID: 387862900
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: t_pfx_steam_01_d_18
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 152
+        width: 32
+        height: 28
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 87b14cfe89f0ae849aeb667af611c054
+      internalID: 1477263610
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: t_pfx_steam_01_d_19
+      rect:
+        serializedVersion: 2
+        x: 187
+        y: 152
+        width: 32
+        height: 28
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dd37b7b8c41278844a2f78387af7219a
+      internalID: 40590198
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: t_pfx_steam_01_d_20
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 152
+        width: 32
+        height: 28
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c18eb32a794b1ca469e60cb52d0fc435
+      internalID: 170822855
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: t_pfx_steam_01_d_21
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 117
+        width: 32
+        height: 28
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ca4a62db905591446b44ccd5dbe8f810
+      internalID: -846979226
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: t_pfx_steam_01_d_22
+      rect:
+        serializedVersion: 2
+        x: 42
+        y: 117
+        width: 32
+        height: 28
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 81908e07a90103b42abc9fdce2597367
+      internalID: 1577172118
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: t_pfx_steam_01_d_23
+      rect:
+        serializedVersion: 2
+        x: 78
+        y: 117
+        width: 32
+        height: 28
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 659c24d35488f764db599d5f0dcd0111
+      internalID: 1751570730
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: t_pfx_steam_01_d_24
+      rect:
+        serializedVersion: 2
+        x: 114
+        y: 117
+        width: 32
+        height: 28
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8a3727edbd9d45e469b0cc95f152db52
+      internalID: 363640114
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: t_pfx_steam_01_d_25
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 117
+        width: 32
+        height: 28
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3f433bced0178c143b80880952fb2445
+      internalID: -1634332792
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: t_pfx_steam_01_d_26
+      rect:
+        serializedVersion: 2
+        x: 187
+        y: 117
+        width: 32
+        height: 28
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 96e0710764f0f324cb2f7706c66c5c6a
+      internalID: -1519761885
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: t_pfx_steam_01_d_27
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 117
+        width: 32
+        height: 28
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 97c5be4a195ee844fac312485ae9a0e8
+      internalID: -1177980502
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: t_pfx_steam_01_d_30
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 84
+        width: 32
+        height: 28
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f79ab7a661f32a94b92e4c64118088bf
+      internalID: 1007877987
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: t_pfx_steam_01_d_31
+      rect:
+        serializedVersion: 2
+        x: 42
+        y: 84
+        width: 32
+        height: 28
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a4a20abc126803440bce15d0cceab5c1
+      internalID: -1641404665
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: t_pfx_steam_01_d_33
+      rect:
+        serializedVersion: 2
+        x: 78
+        y: 84
+        width: 32
+        height: 28
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f1a8e2eead4ddb9419e62b75aed5d437
+      internalID: -196437186
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: t_pfx_steam_01_d_34
+      rect:
+        serializedVersion: 2
+        x: 114
+        y: 84
+        width: 32
+        height: 28
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ee4f4adf500ad2544a3d5d5091712ad0
+      internalID: -1327392978
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: t_pfx_steam_01_d_36
+      rect:
+        serializedVersion: 2
+        x: 187
+        y: 84
+        width: 32
+        height: 28
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0d59550acc64a6e499b64749ef3d2690
+      internalID: 1418913231
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: t_pfx_steam_01_d_35
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 84
+        width: 32
+        height: 28
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d8ad33c09939652459b70e7a888bea6c
+      internalID: -1182053975
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: t_pfx_steam_01_d_37
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 84
+        width: 32
+        height: 28
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c643118b53e3a434fa4c606fb2454016
+      internalID: -289765127
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 19b856061fd11b44d9abf66a033bb953
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      t_pfx_steam_01_d_0: -645979774
+      t_pfx_steam_01_d_1: 278998529
+      t_pfx_steam_01_d_10: -858263823
+      t_pfx_steam_01_d_11: 2087757352
+      t_pfx_steam_01_d_12: -1356286916
+      t_pfx_steam_01_d_13: 204410522
+      t_pfx_steam_01_d_14: 151843471
+      t_pfx_steam_01_d_15: 714992385
+      t_pfx_steam_01_d_16: 1005868121
+      t_pfx_steam_01_d_17: 387862900
+      t_pfx_steam_01_d_18: 1477263610
+      t_pfx_steam_01_d_19: 40590198
+      t_pfx_steam_01_d_2: 1300226241
+      t_pfx_steam_01_d_20: 170822855
+      t_pfx_steam_01_d_21: -846979226
+      t_pfx_steam_01_d_22: 1577172118
+      t_pfx_steam_01_d_23: 1751570730
+      t_pfx_steam_01_d_24: 363640114
+      t_pfx_steam_01_d_25: -1634332792
+      t_pfx_steam_01_d_26: -1519761885
+      t_pfx_steam_01_d_27: -1177980502
+      t_pfx_steam_01_d_3: 1228899899
+      t_pfx_steam_01_d_30: 1007877987
+      t_pfx_steam_01_d_31: -1641404665
+      t_pfx_steam_01_d_32: -2141455311
+      t_pfx_steam_01_d_33: -196437186
+      t_pfx_steam_01_d_34: -1327392978
+      t_pfx_steam_01_d_35: -1182053975
+      t_pfx_steam_01_d_36: 1418913231
+      t_pfx_steam_01_d_37: -289765127
+      t_pfx_steam_01_d_39: -1908351428
+      t_pfx_steam_01_d_4: 1138093271
+      t_pfx_steam_01_d_40: 832233441
+      t_pfx_steam_01_d_41: 669713896
+      t_pfx_steam_01_d_42: -1693224380
+      t_pfx_steam_01_d_43: 2086457177
+      t_pfx_steam_01_d_44: -1561613539
+      t_pfx_steam_01_d_45: -1474366058
+      t_pfx_steam_01_d_46: 642920856
+      t_pfx_steam_01_d_47: 1229642766
+      t_pfx_steam_01_d_48: -630501066
+      t_pfx_steam_01_d_49: -1449156837
+      t_pfx_steam_01_d_5: 602913855
+      t_pfx_steam_01_d_6: -375720643
+      t_pfx_steam_01_d_7: 1275502383
+      t_pfx_steam_01_d_8: -1850318564
+      t_pfx_steam_01_d_9: 2130074880
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

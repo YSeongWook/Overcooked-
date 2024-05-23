@@ -1,0 +1,17 @@
+fileFormatVersion: 2
+<<<<<<<< HEAD:Assets/TextMesh Pro/Examples & Extras/Scripts/TMP_TextInfoDebugTool.cs.meta
+guid: 21256c5b62f346f18640dad779911e20
+timeCreated: 1430348781
+licenseType: Store
+========
+guid: b74235ec4771657429d10d6985977b07
+>>>>>>>> YunSeongwook:Assets/02.Scripts/Util/EnumTypes.cs.meta
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

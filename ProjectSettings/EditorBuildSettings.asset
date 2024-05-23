@@ -5,7 +5,24 @@ EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Scenes:
+  - enabled: 0
+    path: Assets/01.Scenes/Inseok/NetworkScenes/Intro_Net.unity
+    guid: a09ae03938d589b408722f8dbfccd792
   - enabled: 1
-    path: Assets/01.Scenes/SampleScene.unity
-    guid: 99c9720ab356a0642a771bea13969a05
-  m_configObjects: {}
+    path: Assets/01.Scenes/Eunjoo/Intro.unity
+    guid: 5e6208ebd628aad4194e0ad15c25e9e5
+  - enabled: 1
+    path: Assets/01.Scenes/Eunjoo/TestStage.unity
+    guid: 98affc3cb5934854db5b18dda4219613
+  - enabled: 1
+    path: Assets/01.Scenes/Minseok/WorldMap.unity
+    guid: 1d98b15de8d83e041820f583bfea06a4
+  - enabled: 1
+    path: Assets/01.Scenes/Eunjoo/BattleLobby.unity
+    guid: 729d3387385eb414ab0d7ed1346291e8
+  - enabled: 1
+    path: Assets/01.Scenes/Eunjoo/Mine.unity
+    guid: fe5f3b5959e54354484b73a776d3ce17
+  m_configObjects:
+    com.unity.input.settings: {fileID: 11400000, guid: c6c6f27b5f47b074396d1e2d4b77956a,
+      type: 2}

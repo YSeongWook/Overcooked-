@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d7300932f1db926469ec9d06e8cbcd91, type: 3}
+  m_Name: MeatBurrito
+  m_EditorClassIdentifier: 
+  Level: 4
+  MenuName: MeatBurrito
+  Ingredient: 0a0000000c00000010000000
+  LimitTime: 165
+  MenuIcon: {fileID: 21300000, guid: 8be1f21ea4a8bd040923840c4011c24f, type: 3}
+  IngredientIcon:
+  - {fileID: 21300000, guid: a317b8c007215ba499388dcf169d9b78, type: 3}
+  - {fileID: 21300000, guid: 1f4097d99759e534cb060081d93ac2a1, type: 3}
+  - {fileID: 21300000, guid: 403761297b603554f88e2ff404042b34, type: 3}
+  Price: 80
