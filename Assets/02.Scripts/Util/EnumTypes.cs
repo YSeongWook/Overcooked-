@@ -37,11 +37,11 @@ namespace EnumTypes
         IntroMapOpen,
         BattleRoomOpen,
         TutoMapOpen,
-        stage1_4MapOpen,
-        stage2_5MapOpen,
-        stage3_3MapOpen,
-        stageWizardMapOpen,
-        stageMineMapOpen,
+        Stage1_4MapOpen,
+        Stage2_5MapOpen,
+        Stage3_3MapOpen,
+        StageWizardMapOpen,
+        StageMineMapOpen,
         TestStageMapOpen,
     }
 
@@ -94,11 +94,11 @@ namespace EnumTypes
     {
         None,
         Tuto,
-        stage1_4,
-        stage2_5,
-        stage3_3,
-        stageWizard,
-        stageMine,
+        Stage1_4,
+        Stage2_5,
+        Stage3_3,
+        StageWizard,
+        StageMine,
     }
 
     public class EnumTypes : MonoBehaviour { }

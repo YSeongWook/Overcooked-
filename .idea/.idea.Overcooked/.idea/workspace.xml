@@ -5,17 +5,19 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c9c8c714-ee9b-4c03-80c6-e57a22f86f14" name="변경" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.Overcooked/.idea/sonarlint/issuestore/a/8/a85aa2652809df889188ca33213e2fb3be37b0c9" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Overcooked/.idea/sonarlint/issuestore/a/8/a85aa2652809df889188ca33213e2fb3be37b0c9" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.Overcooked/.idea/sonarlint/issuestore/d/c/dc223f8d93a09a8ceaf3ebc2cb060c19baf8a2c7" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Overcooked/.idea/sonarlint/issuestore/d/c/dc223f8d93a09a8ceaf3ebc2cb060c19baf8a2c7" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.Overcooked/.idea/sonarlint/issuestore/f/4/f4e933136d31d3c76daf99a3f2d4ebc8a7b0c1a0" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Overcooked/.idea/sonarlint/issuestore/f/4/f4e933136d31d3c76daf99a3f2d4ebc8a7b0c1a0" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Overcooked/.idea/sonarlint/issuestore/8/9/89171fb5ab51c74241c6c3f819494fe03d6d0fd9" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Overcooked/.idea/sonarlint/issuestore/8/9/89171fb5ab51c74241c6c3f819494fe03d6d0fd9" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Overcooked/.idea/sonarlint/issuestore/8/f/8f4fd3fa15b4970585f1f4262c9fb46b6638dc03" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Overcooked/.idea/sonarlint/issuestore/8/f/8f4fd3fa15b4970585f1f4262c9fb46b6638dc03" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Overcooked/.idea/sonarlint/issuestore/f/9/f93b70c7386da2231ee03d48ecef4f8e3722877b" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Overcooked/.idea/sonarlint/issuestore/f/9/f93b70c7386da2231ee03d48ecef4f8e3722877b" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Overcooked/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Overcooked/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Overcooked/.idea/sonarlint/securityhotspotstore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Overcooked/.idea/sonarlint/securityhotspotstore/index.pb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Overcooked/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Overcooked/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/02.Scripts/Object/CookingAppliance/CuttingBoard.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/02.Scripts/Object/CookingAppliance/CuttingBoard.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/02.Scripts/Object/CookingAppliance/Oven.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/02.Scripts/Object/CookingAppliance/Oven.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/02.Scripts/Object/Ingredient.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/02.Scripts/Object/Ingredient.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/02.Scripts/Player/Player2InteractController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/02.Scripts/Player/Player2InteractController.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/02.Scripts/Player/PlayerInteractController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/02.Scripts/Player/PlayerInteractController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/02.Scripts/Map/Bus.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/02.Scripts/Map/Bus.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/02.Scripts/Object/CookingAppliance/AutoTrash.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/02.Scripts/Object/CookingAppliance/AutoTrash.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/02.Scripts/UI/PressSkip.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/02.Scripts/UI/PressSkip.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/02.Scripts/UI/SceneChangeManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/02.Scripts/UI/SceneChangeManager.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/02.Scripts/UI/ScrollSnapButton.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/02.Scripts/UI/ScrollSnapButton.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/02.Scripts/UI/UIManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/02.Scripts/UI/UIManager.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/02.Scripts/Util/EnumTypes.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/02.Scripts/Util/EnumTypes.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -102,7 +104,7 @@
       <option name="presentableId" value="Default" />
       <updated>1717468491342</updated>
       <workItem from="1717468498013" duration="801000" />
-      <workItem from="1717469339942" duration="3484000" />
+      <workItem from="1717469339942" duration="4196000" />
     </task>
     <servers />
   </component>

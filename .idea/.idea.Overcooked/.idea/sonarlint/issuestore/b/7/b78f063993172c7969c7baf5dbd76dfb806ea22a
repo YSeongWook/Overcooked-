@@ -1,0 +1,27 @@
+
+Lcsharpsquid:S3903
+"*Move 'GameManager' into a named namespace.(ßßùÁÿÿÿÿÿ
+fcsharpsquid:S2930°"CDispose 'alphaCancellationTokenSource' when it is no longer needed.(‚×’Çûÿÿÿÿ
+gcsharpsquid:S3358ú"DExtract this nested ternary operation into an independent statement.(×Òû©ıÿÿÿÿ
+jcsharpsquid:S1244ƒ"LDo not check floating point equality with exact values, use a range instead.(…—½ø
+jcsharpsquid:S1244‡"LDo not check floating point equality with exact values, use a range instead.(ğÊµ…
+`csharpsquid:S1104"DMake this field 'private' and encapsulate it in a 'public' property.(Ø å
+fcsharpsquid:S11048"DMake this field 'private' and encapsulate it in a 'public' property.(ÍĞ·–üÿÿÿÿ
+fcsharpsquid:S11049"DMake this field 'private' and encapsulate it in a 'public' property.(Œ¿¡§ùÿÿÿÿ
+fcsharpsquid:S1104:"DMake this field 'private' and encapsulate it in a 'public' property.(ËÓúÿÿÿÿ
+fcsharpsquid:S1104;"DMake this field 'private' and encapsulate it in a 'public' property.(®òëóşÿÿÿÿ
+fcsharpsquid:S1104<"DMake this field 'private' and encapsulate it in a 'public' property.(¦¬˜úÿÿÿÿ
+acsharpsquid:S1104="DMake this field 'private' and encapsulate it in a 'public' property.(Ææöò
+acsharpsquid:S1104G"DMake this field 'private' and encapsulate it in a 'public' property.(˜üÁ
+acsharpsquid:S1104J"DMake this field 'private' and encapsulate it in a 'public' property.(Œª×›
+acsharpsquid:S1104K"DMake this field 'private' and encapsulate it in a 'public' property.(›ôÜÚ
+Mcsharpsquid:S1066á"/Merge this if statement with the enclosing one.(¨òˆ€
+rcsharpsquid:S1450L"PRemove the field 'i' and declare it as a local variable in the relevant methods.(ºÉÎúÿÿÿÿ
+}csharpsquid:S1450["[Remove the field 'currentColor' and declare it as a local variable in the relevant methods.(Ê´Êªøÿÿÿÿ
+bcsharpsquid:S1192Ö"DDefine a constant instead of using this literal 'MakeOrder' 5 times.(—šË×
+Ucsharpsquid:S2259ƒ"7'targetPoolUIs' is null on at least one execution path.(ÛºæÚ
+bcsharpsquid:S2589¤"DChange this condition so that it does not always evaluate to 'True'.(¿Œ³Í
+‰csharpsquid:S2583–"fChange this condition so that it does not always evaluate to 'False'. Some code paths are unreachable.(ıëäüÿÿÿÿ
+Ycsharpsquid:S1117®";Rename 'duration' which hides the field with the same name.(şÖ§
+Rcsharpsquid:S1117û"4Rename 'i' which hides the field with the same name.(¾ú·£
+Acsharpsquid:S125¯"Remove this commented out code.(ù³Èåûÿÿÿÿ

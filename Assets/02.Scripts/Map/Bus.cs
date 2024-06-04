@@ -135,17 +135,17 @@ public class Bus : MonoBehaviour
                 //UIManager.Instance.sceneType = SceneType.BattleMap;
                 //UIManager.Instance.mapType = MapType.stageMine;
                 UIManager.Instance.sceneType = SceneType.StageMap;
-                UIManager.Instance.mapType = MapType.stage2_5;
+                UIManager.Instance.mapType = MapType.Stage2_5;
                 UIManager.Instance.EnterLoadingMapUI();
                 break;
             case "Stage2 UI":
                 UIManager.Instance.sceneType = SceneType.StageMap;
-                UIManager.Instance.mapType = MapType.stage2_5;
+                UIManager.Instance.mapType = MapType.Stage2_5;
                 UIManager.Instance.EnterLoadingMapUI();
                 break;
             case "Stage3 UI":
                 UIManager.Instance.sceneType = SceneType.StageMap;
-                UIManager.Instance.mapType = MapType.stage3_3;
+                UIManager.Instance.mapType = MapType.Stage3_3;
                 UIManager.Instance.EnterLoadingMapUI();
                 break;
             default:

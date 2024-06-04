@@ -409,13 +409,13 @@ public class UIManager : Singleton<UIManager>
                     EventManager<SceneChangeEvent>.TriggerEvent(SceneChangeEvent.TestStageMapOpen);
                     break;
                 case "GoToStage2_5":
-                    EventManager<SceneChangeEvent>.TriggerEvent(SceneChangeEvent.stage2_5MapOpen);
+                    EventManager<SceneChangeEvent>.TriggerEvent(SceneChangeEvent.Stage2_5MapOpen);
                     break;
                 case "GoToMine":
-                    EventManager<SceneChangeEvent>.TriggerEvent(SceneChangeEvent.stageMineMapOpen);
+                    EventManager<SceneChangeEvent>.TriggerEvent(SceneChangeEvent.StageMineMapOpen);
                     break;
                 case "GoToWizard":
-                    EventManager<SceneChangeEvent>.TriggerEvent(SceneChangeEvent.stageWizardMapOpen);
+                    EventManager<SceneChangeEvent>.TriggerEvent(SceneChangeEvent.StageWizardMapOpen);
                     break;
                 case "busTopUIOn":
                     busTopUI.SetActive(true);
@@ -562,23 +562,23 @@ public class UIManager : Singleton<UIManager>
                 SetStageImageText(0);
                 MaskOutUI(pineappleMask, broccoliMask, "GoToTestStage");
                 break;
-            case MapType.stage1_4:
+            case MapType.Stage1_4:
                 SetStageImageText(1);
                 MaskOutUI(pineappleMask, broccoliMask, "GoToTestStage");
                 break;
-            case MapType.stage2_5:
+            case MapType.Stage2_5:
                 SetStageImageText(2);
                 MaskOutUI(pineappleMask, broccoliMask, "GoToStage2_5");
                 break;
-            case MapType.stage3_3:
+            case MapType.Stage3_3:
                 SetStageImageText(3);
                 MaskOutUI(pineappleMask, broccoliMask, "GoToTestStage");
                 break;
-            case MapType.stageWizard:
+            case MapType.StageWizard:
                 SetStageImageText(4);
                 MaskOutUI(pineappleMask, broccoliMask, "GoToWizard");
                 break;
-            case MapType.stageMine:
+            case MapType.StageMine:
                 SetStageImageText(5);
                 MaskOutUI(pineappleMask, broccoliMask, "GoToMine");
                 break;

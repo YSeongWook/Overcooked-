@@ -17,7 +17,7 @@ public class AutoTrash : MonoBehaviour  // AutoTrash 클래스는 MonoBehaviour�
         }
     }
 
-    IEnumerator ScaleSmaller(Collider other)  // 오브젝트를 점점 작아지게 하는 코루틴.
+    private IEnumerator ScaleSmaller(Collider other)  // 오브젝트를 점점 작아지게 하는 코루틴.
     {
         if (other == null)  // other가 null인지 확인. null이면 null을 반환하고 종료.
         {

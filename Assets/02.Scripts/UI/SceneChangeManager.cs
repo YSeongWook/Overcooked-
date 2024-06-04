@@ -10,7 +10,7 @@ using UnityEngine.UI;
 
 public class SceneChangeManager : Singleton<SceneChangeManager>
 {
-    AsyncOperation operation;
+    private AsyncOperation _operation;
     private void OnEnable()
     {
         // 씬 로드 완료 이벤트에 OnSceneLoaded 메서드를 등록
@@ -19,11 +19,11 @@ public class SceneChangeManager : Singleton<SceneChangeManager>
         EventManager<SceneChangeEvent>.StartListening(SceneChangeEvent.IntroMapOpen, ChangeToIntroMap);
         EventManager<SceneChangeEvent>.StartListening(SceneChangeEvent.BattleRoomOpen, ChangeToBattleLobby);
         EventManager<SceneChangeEvent>.StartListening(SceneChangeEvent.TestStageMapOpen, ChangeToTestStage);
-        EventManager<SceneChangeEvent>.StartListening(SceneChangeEvent.stage1_4MapOpen, ChangeToStage1_4);
-        EventManager<SceneChangeEvent>.StartListening(SceneChangeEvent.stage2_5MapOpen, ChangeToStage2_5);
-        EventManager<SceneChangeEvent>.StartListening(SceneChangeEvent.stage3_3MapOpen, ChangeToStage3_3);
-        EventManager<SceneChangeEvent>.StartListening(SceneChangeEvent.stageWizardMapOpen, ChangeToStageWizard);
-        EventManager<SceneChangeEvent>.StartListening(SceneChangeEvent.stageMineMapOpen, ChangeToStageMine);
+        EventManager<SceneChangeEvent>.StartListening(SceneChangeEvent.Stage1_4MapOpen, ChangeToStage1_4);
+        EventManager<SceneChangeEvent>.StartListening(SceneChangeEvent.Stage2_5MapOpen, ChangeToStage2_5);
+        EventManager<SceneChangeEvent>.StartListening(SceneChangeEvent.Stage3_3MapOpen, ChangeToStage3_3);
+        EventManager<SceneChangeEvent>.StartListening(SceneChangeEvent.StageWizardMapOpen, ChangeToStageWizard);
+        EventManager<SceneChangeEvent>.StartListening(SceneChangeEvent.StageMineMapOpen, ChangeToStageMine);
     }
 
     private void OnDisable()
@@ -33,23 +33,23 @@ public class SceneChangeManager : Singleton<SceneChangeManager>
     }
 
     // 버스 맵으로 전환
-    public void ChangeToWorldMap()
+    private void ChangeToWorldMap()
     {
         ChangeScene("WorldMap", "WorldMap", UIManager.Instance.loadingKeyBar);
     }
 
     // 인트로 맵으로 전환
-    public void ChangeToIntroMap()
+    private void ChangeToIntroMap()
     {
         ChangeScene("Intro", "Intro", UIManager.Instance.loadingKeyBar);
     }
 
-    public void ChangeToBattleLobby()
+    private void ChangeToBattleLobby()
     {
         ChangeScene("Battle", "BattleLobby", UIManager.Instance.loadingKeyBar);
     }
     // 테스트 스테이지로 전환
-    public void ChangeToTestStage()
+    private void ChangeToTestStage()
     {
         ChangeScene("Mine", "Mine", UIManager.Instance.loadingMapBar);
     }
@@ -58,32 +58,31 @@ public class SceneChangeManager : Singleton<SceneChangeManager>
         ChangeScene("bgmName", "sceneName", UIManager.Instance.loadingMapBar);
     }
 
-    public void ChangeToStage1_4()
+    private void ChangeToStage1_4()
     {
         ChangeScene("Sushi", "TestStage", UIManager.Instance.loadingMapBar);
         //ChangeScene("Sushi", "Stage1_4", UIManager.Instance.loadingMapBar);
     }
 
-    public void ChangeToStage2_5()
+    private void ChangeToStage2_5()
     {
         ChangeScene("Mine", "Mine_Single", UIManager.Instance.loadingMapBar);
     }
 
-    public void ChangeToStage3_3()
+    private void ChangeToStage3_3()
     {
         ChangeScene("Wizard", "Stage3_3", UIManager.Instance.loadingMapBar);
     }
 
-    public void ChangeToStageWizard()
+    private void ChangeToStageWizard()
     {
         ChangeScene("Wizard", "Wizard", UIManager.Instance.loadingMapBar);
     }
 
-    public void ChangeToStageMine()
+    private void ChangeToStageMine()
     {
         ChangeScene("Mine", "Mine", UIManager.Instance.loadingMapBar);
     }
-
 
     // 씬 전환을 위한 공통 메서드
     private void ChangeScene(string bgmName, string sceneName, Image loadingBar)
@@ -106,19 +105,19 @@ public class SceneChangeManager : Singleton<SceneChangeManager>
 
     private async UniTaskVoid LoadSceneAsyncUniTask(string sceneName, Image loadingBar)
     {
-        operation = SceneManager.LoadSceneAsync(sceneName);
+        _operation = SceneManager.LoadSceneAsync(sceneName);
         UIManager.Instance.LoadingFood();
 
-        operation.allowSceneActivation = false;
+        _operation.allowSceneActivation = false;
         float timer = 0;
 
-        while (!operation.isDone)
+        while (!_operation.isDone)
         {
             timer += Time.deltaTime;
-            if (operation.progress < 0.9f)
+            if (_operation.progress < 0.9f)
             {
-                loadingBar.fillAmount = Mathf.Lerp(loadingBar.fillAmount, operation.progress, timer);
-                if (loadingBar.fillAmount >= operation.progress)
+                loadingBar.fillAmount = Mathf.Lerp(loadingBar.fillAmount, _operation.progress, timer);
+                if (loadingBar.fillAmount >= _operation.progress)
                 {
                     timer = 0f;
                 }
@@ -128,7 +127,7 @@ public class SceneChangeManager : Singleton<SceneChangeManager>
                 loadingBar.fillAmount = Mathf.Lerp(loadingBar.fillAmount, 1f, timer);
                 if (loadingBar.fillAmount == 1.0f)
                 {
-                    operation.allowSceneActivation = true;
+                    _operation.allowSceneActivation = true;
                     UIManager.Instance.LoadingFoodOff();
                     break;
                 }

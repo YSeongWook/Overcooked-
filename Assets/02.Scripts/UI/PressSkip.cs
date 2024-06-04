@@ -54,7 +54,7 @@ public class PressSkip : MonoBehaviour
     {
         UIManager.Instance.RecipeUIOff();
         SoundManager.Instance.RecipeUIPopOut();
-        if (UIManager.Instance.mapType == MapType.stageMine)
+        if (UIManager.Instance.mapType == MapType.StageMine)
         {
             //EventManager<SoundEvents>.TriggerEvent(SoundEvents.MineBgmPlay);
         }

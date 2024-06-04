@@ -70,7 +70,7 @@ public class ScrollSnapButton : MonoBehaviour
             if (name == "Wizard")
             {
                 UIManager.Instance.sceneType = EnumTypes.SceneType.BattleMap;
-                UIManager.Instance.mapType = EnumTypes.MapType.stageWizard;
+                UIManager.Instance.mapType = EnumTypes.MapType.StageWizard;
                 // 선택하면 오브젝트를 끄고
                 //snap.gameObject.SetActive(false);
                 ////// 버튼을 활성화 시키고
@@ -82,7 +82,7 @@ public class ScrollSnapButton : MonoBehaviour
             else if (name == "Mine")
             {
                 UIManager.Instance.sceneType = EnumTypes.SceneType.BattleMap;
-                UIManager.Instance.mapType = EnumTypes.MapType.stageMine;
+                UIManager.Instance.mapType = EnumTypes.MapType.StageMine;
                 //// 선택하면 오브젝트를 끄고
                 //snap.gameObject.SetActive(false);
                 ////// 버튼을 활성화 시키고

@@ -1,0 +1,13 @@
+
+ªcsharpsquid:S1871Â"_Either merge this case with the identical one on line 186 or change one of the implementations.(ëã¹ş8Û½ÈŒş1J$843fbedc-f0ba-48ee-803d-fd3a76da81ef
+©csharpsquid:S1871Ò"_Either merge this case with the identical one on line 169 or change one of the implementations.(êùÚ-8Ş½ÈŒş1J$113e2e07-979d-4607-af9e-81c3448c2e29
+{csharpsquid:S3903"1Move 'SceneChangeManager' into a named namespace.(é°÷˜8à½ÈŒş1J$d622da03-e06f-4cd4-a43c-6b318ac4c9d3
+–csharpsquid:S1244€"LDo not check floating point equality with exact values, use a range instead.(ÿ ßQ8à½ÈŒş1J$282c5b41-cef5-4496-943a-f9809bd5d9c0
+‹csharpsquid:S1192J"ADefine a constant instead of using this literal 'Wizard' 4 times.(öÒ–8à½ÈŒş1J$01e0d545-769f-4cee-810b-f94f4475ce87
+hcsharpsquid:S125@"Remove this commented out code.(¹”Úô8à½ÈŒş1J$4f0fb354-d35f-4019-8e21-37a9ac91f0ee
+ncsharpsquid:S125”"Remove this commented out code.(ÌßÜ‚şÿÿÿÿ8à½ÈŒş1J$47f97b59-fb03-4d4a-955b-70773465c04d
+ncsharpsquid:S125¤"Remove this commented out code.(“ªû»şÿÿÿÿ8à½ÈŒş1J$36fef8b0-6446-41d0-8865-678a56b41293
+ncsharpsquid:S125¦"Remove this commented out code.(ªùÀ´üÿÿÿÿ8à½ÈŒş1J$74dbbd2b-f438-4827-88fc-051797c38084
+ncsharpsquid:S125ª"Remove this commented out code.(ÍÙâşÿÿÿÿ8à½ÈŒş1J$349d9308-4695-4c04-9ae2-17b819589d4a
+ncsharpsquid:S125Ó"Remove this commented out code.(àÎğ÷øÿÿÿÿ8à½ÈŒş1J$0eb45811-3b39-4c14-8c81-53aee3a2c87e
+ncsharpsquid:S125Û"Remove this commented out code.(àÎğ÷øÿÿÿÿ8à½ÈŒş1J$84d0ab51-9a0f-486c-9a65-7fd99c24b8d3
