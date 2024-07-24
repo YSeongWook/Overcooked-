@@ -331,6 +331,7 @@ public class GameManager_Net : MonoBehaviour
                 scale.y += Time.unscaledDeltaTime;
                 scale.z += Time.unscaledDeltaTime;
                 Timesup.transform.localScale = scale;
+                //StartCoroutine(LoadResult());
             }
             else
             {
@@ -346,11 +347,13 @@ public class GameManager_Net : MonoBehaviour
         }
     }
 
-    public void LoadResult()
-    {
+    //public IEnumerator LoadResult()
+    //{
+        //yield return new WaitForSeconds(1f);
         // 결과 씬 로드
-        Debug.Log("실행");
-    }
+        //Canvas.SetActive(false);
+        //Debug.Log("실행");
+    //}
 
     private void ToClock()
     {
@@ -391,7 +394,7 @@ public class GameManager_Net : MonoBehaviour
         ReturnCounter.transform.GetChild(1).GetComponent<Return>().returnPlates.Add(newPlate);
         Vector3 spawnPos = ReturnCounter.transform.GetChild(1).GetComponent<Return>().SetPosition();
         newPlate.transform.localPosition = spawnPos;
-        newPlate.GetComponent<Plates>().canvas = Canvas;
+        newPlate.GetComponent<Plates_Net>().canvas = Canvas;
     }
 
     public void MakeOrder()

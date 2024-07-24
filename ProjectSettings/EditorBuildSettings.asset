@@ -5,40 +5,40 @@ EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Scenes:
-  - enabled: 0
+  - enabled: 1
     path: Assets/01.Scenes/Inseok/NetworkScenes/Intro_Net.unity
     guid: dfde6fadad079ce4aac9d13c87a01482
-  - enabled: 0
+  - enabled: 1
     path: Assets/01.Scenes/Inseok/NetworkScenes/BattleLobby_Net.unity
     guid: 20413a79944b43843b6c21b37baadb5c
-  - enabled: 0
+  - enabled: 1
     path: Assets/01.Scenes/Inseok/NetworkScenes/Mine_Net.unity
     guid: cac8b37b704f6ef47aa35a0f7738551d
-  - enabled: 0
+  - enabled: 1
     path: Assets/01.Scenes/Inseok/NetworkScenes/Wizard_Net.unity
     guid: 983a6faf07bf4144db9b6b272f1bd7ca
-  - enabled: 1
+  - enabled: 0
     path: Assets/01.Scenes/Eunjoo/Intro.unity
     guid: 5e6208ebd628aad4194e0ad15c25e9e5
-  - enabled: 1
+  - enabled: 0
     path: Assets/01.Scenes/Eunjoo/BattleLobby.unity
     guid: 729d3387385eb414ab0d7ed1346291e8
-  - enabled: 1
+  - enabled: 0
     path: Assets/01.Scenes/Seongwook/WorldMap.unity
     guid: 050fddbe847789d449f85c793a8ce3c3
-  - enabled: 1
+  - enabled: 0
     path: Assets/01.Scenes/Minseok/Wizard.unity
     guid: 906302c6d1ef58143a5a5d505b4030f2
   - enabled: 0
     path: Assets/01.Scenes/Inseok/NetworkScenes/Mine_Net.unity
     guid: cac8b37b704f6ef47aa35a0f7738551d
-  - enabled: 1
+  - enabled: 0
     path: Assets/01.Scenes/Minseok/NewWorldMap.unity
     guid: 05d9d4554190aca46a8338e0f8e9bcc3
-  - enabled: 1
+  - enabled: 0
     path: Assets/01.Scenes/Seongwook/Mine_Single.unity
     guid: 9d621934467e1d9449ee59cf669a7f11
-  - enabled: 1
+  - enabled: 0
     path: Assets/01.Scenes/Seongwook/Mine.unity
     guid: 800c38123ea652b489e0c9467597c194
   - enabled: 1

@@ -26,7 +26,7 @@ public class PanOnStove : MonoBehaviour
     private CancellationTokenSource _cts; // 비동기 작업 취소 토큰
     private bool _pause; // 요리 일시 정지 여부
     private bool _stateIsCooked; // 재료가 요리되었는지 여부
-    private Ingredient _ingredient; // 현재 팬에 있는 재료
+    private Ingredient_Net _ingredient; // 현재 팬에 있는 재료
 
     private void Start()
     {
@@ -62,7 +62,7 @@ public class PanOnStove : MonoBehaviour
     public void AddNewIngredient()
     {
         Debug.Log("AddNewIngredient");
-        _ingredient = transform.GetChild(2).GetChild(0).GetChild(0).GetComponent<Ingredient>();
+        _ingredient = transform.GetChild(2).GetChild(0).GetChild(0).GetComponent<Ingredient_Net>();
         inSomething = true;
         
         // 이미 요리된 재료인 경우 반환합니다.
@@ -186,7 +186,7 @@ public class PanOnStove : MonoBehaviour
         GameObject madeUI = Instantiate(ingredientUI, Vector3.zero, Quaternion.identity, canvas.transform);
         madeUI.transform.GetChild(0).gameObject.SetActive(true);
         Image image = madeUI.transform.GetChild(0).GetComponent<Image>();
-        image.sprite = IconManager.Instance.GetIcon(_ingredient.type);
+        image.sprite = IconManager_Net.Instance.GetIcon(_ingredient.type);
         madeUI.GetComponent<IngredientUI>().target = _ingredient.transform;
     }
 

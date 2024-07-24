@@ -62,33 +62,33 @@ public class ScrollSnapButton : MonoBehaviour
         {
             if (name == "Wizard")
             {
-                UIManager.Instance.sceneType = EnumTypes.SceneType.BattleMap;
-                UIManager.Instance.mapType = EnumTypes.MapType.StageWizard;
+                //UIManager.Instance.sceneType = EnumTypes.SceneType.BattleMap;
+                //UIManager.Instance.mapType = EnumTypes.MapType.StageWizard;
                 // 선택하면 오브젝트를 끄고
-                //snap.gameObject.SetActive(false);
+                snap.gameObject.SetActive(false);
                 ////// 버튼을 활성화 시키고
-                //ReadyBtn.gameObject.SetActive(true);
+                ReadyBtn.gameObject.SetActive(true);
                 ////// 랜덤맵을 염
-                //RandomSelectMap.gameObject.SetActive(true);
-                //FindOverNetworkRoomPlayerAndCheckMap(name);
+                RandomSelectMap.gameObject.SetActive(true);
+                FindOverNetworkRoomPlayerAndCheckMap(name);
             }
             else if (name == "Mine")
             {
-                UIManager.Instance.sceneType = EnumTypes.SceneType.BattleMap;
-                UIManager.Instance.mapType = EnumTypes.MapType.StageMine;
+                //UIManager.Instance.sceneType = EnumTypes.SceneType.BattleMap;
+                //UIManager.Instance.mapType = EnumTypes.MapType.StageMine;
                 //// 선택하면 오브젝트를 끄고
-                //snap.gameObject.SetActive(false);
+                snap.gameObject.SetActive(false);
                 ////// 버튼을 활성화 시키고
-                //ReadyBtn.gameObject.SetActive(true);
+                ReadyBtn.gameObject.SetActive(true);
                 ////// 랜덤맵을 염
-                //RandomSelectMap.gameObject.SetActive(true);
-                //FindOverNetworkRoomPlayerAndCheckMap(name);
+                RandomSelectMap.gameObject.SetActive(true);
+                FindOverNetworkRoomPlayerAndCheckMap(name);
             }
             else 
             {
                 return;
             }
-            UIManager.Instance.EnterLoadingMapUI();
+            //UIManager.Instance.EnterLoadingMapUI();
         }
     }
 

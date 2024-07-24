@@ -1,4 +1,5 @@
 using Mirror;
+using System.Collections;
 using System.Collections.Generic;
 using System.Linq;
 using Unity.VisualScripting;
@@ -78,10 +79,17 @@ public class PlayerInteractController_Net : NetworkBehaviour
 
         if (GameManager_Net.instance.isDone)
         {
-            UIManager.Instance.battleResultUI.SetActive(true);
-            UIManager.Instance.battleResultUI.GetComponent<BattleResultText>().targetRedTotalNum = Player1Money;
-            UIManager.Instance.battleResultUI.GetComponent<BattleResultText>().targetBlueTotalNum = Player2Money;
+            StartCoroutine(StartResult());
         }
+    }
+
+    IEnumerator StartResult()
+    {
+        yield return new WaitForSecondsRealtime(2f);
+        GameObject.Find("Canvas").SetActive(false);
+        UIManager.Instance.battleResultUI.SetActive(true);
+        UIManager.Instance.battleResultUI.GetComponent<BattleResultText>().targetRedTotalNum = Player1Money;
+        UIManager.Instance.battleResultUI.GetComponent<BattleResultText>().targetBlueTotalNum = Player2Money;
     }
 
     [SyncVar(hook = nameof(OnPlayer1MoneyChanged))]
@@ -631,6 +639,7 @@ public class PlayerInteractController_Net : NetworkBehaviour
                     ingredientObj.transform.localRotation = Quaternion.Euler(0f, -168.905f, 0f);
 
                     potAndPan.GetComponent<PanOnStove>().inSomething = true;
+                    potAndPan.GetComponent<PanOnStove>().AddNewIngredient();
 
                     anim.SetBool("isHolding", false);
                     isHolding = false;
@@ -650,6 +659,7 @@ public class PlayerInteractController_Net : NetworkBehaviour
                     ingredientObj.transform.localRotation = Quaternion.Euler(0f, -168.905f, 0f);
 
                     potAndPan.GetComponent<PotOnStove>().inSomething = true;
+                    potAndPan.GetComponent<PotOnStove>().AddNewIngredient();
 
                     anim.SetBool("isHolding", false);
                     isHolding = false;

@@ -8,6 +8,7 @@ public class Plates_Net : MonoBehaviour
     public List<Ingredient_Net.IngredientType> containIngredients = new List<Ingredient_Net.IngredientType>();
     public int limit = 1;
     public GameObject Canvas;
+    public GameObject canvas;
     [SerializeField] private GameObject IngredientUI;
     [SerializeField] private Sprite[] Icons;
     public GameObject madeUI;

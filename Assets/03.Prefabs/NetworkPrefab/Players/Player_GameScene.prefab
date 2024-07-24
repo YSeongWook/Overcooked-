@@ -115,6 +115,9 @@ MonoBehaviour:
   knife: {fileID: 1965237012955324460}
   pickupButton: {fileID: 0}
   cookButton: {fileID: 0}
+  coin_: 0
+  Player1Money: 0
+  Player2Money: 0
 --- !u!114 &1287494153104891474
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -278,7 +281,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   sceneId: 0
-  _assetId: 308898997
+  _assetId: 4202507558
   serverOnly: 0
   visibility: 0
   hasSpawned: 0

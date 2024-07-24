@@ -1,6 +1,7 @@
 using UnityEngine;
 using TMPro;
 using DG.Tweening;
+using System.Collections;
 
 public class BattleResultText : MonoBehaviour
 {
@@ -33,8 +34,19 @@ public class BattleResultText : MonoBehaviour
 
     public float duration = 2f;
 
-    private void Start()
+    //private void Start()
+    //{
+    //    TargetTipNum();
+    //}
+
+    private void OnEnable()
     {
+        StartCoroutine(StartResult());
+    }
+
+    private IEnumerator StartResult()
+    {
+        yield return new WaitForSecondsRealtime(1f);
         TargetTipNum();
     }
 
